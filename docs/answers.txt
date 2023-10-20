@@ -1,0 +1,49 @@
+Git Lab tutorial date: 10/20/2023
+My GitHub account was created around 2018-2019 (I think)
+
+1.
+    Enumerating objects: 9, done.
+    Counting objects: 100% (9/9), done.
+    Delta compression using up to 12 threads
+    Compressing objects: 100% (5/5), done.
+    Writing objects: 100% (7/7), 692 bytes | 692.00 KiB/s, done.
+    Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+    To github.com:noahwbeach/assignment2.git
+       f4975e5..779ec0c  master -> master
+
+2. 9
+    git rev-list --count HEAD
+
+3. Fri Oct 20 14:10:24 2023 -0400
+    git log README.md
+
+4. Organization and Parallel workflow
+
+5. git log lists commits on the current branch
+   git status shows the status of the current branch
+
+6. git log Vehicle.h
+
+7. git log --grep "file"
+
+8.
+    I) Inheritance is the process of sharing attributes
+       and methods from parent to child class
+
+    II) Polymorphism is using inheritance to create a
+        common interface where the underlying implementation
+        is actually different
+
+    III) Encapsulation is the process of guarding access
+         to data inside of classes through methods
+         (compared to accessing data directly)
+
+9. Dictator and Lieutenants workflow has an additional layer
+   between the developers and the blessed repository compared
+   to the Integration Manager workflow
+
+10. In the Dictator and Lieutenants workflow, conflicts are
+    handled in separate repositories, which will help with keeping
+    the blessed repository clean since there are 100 developers
+    (100 developers committing to a single repo would get messy really fast)
